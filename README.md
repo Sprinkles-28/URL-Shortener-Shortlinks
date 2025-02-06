@@ -32,9 +32,8 @@ npm install  # or yarn install
 ### 3️⃣ Set up environment variables
 Create a `.env` file in the root directory and add:
 ```env
-MONGO_URI=<your-mongodb-connection-string>
-BASE_URL=<your-base-url>
-PORT=5000
+MONGODB_URI=mongodb://localhost:27017
+NEXT_PUBLIC_HOST=http://localhost:3000
 ```
 
 ### 4️⃣ Run the application
@@ -70,10 +69,4 @@ The app will be available at `http://localhost:3000`
 
 ---
 Made with ❤️ by Prety Saha
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
